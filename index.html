@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Automation & Lead Generation Services</title>
+<style>
+    /* Global Styles */
+    body {
+        font-family: 'Poppins', Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f2f2f2;
+        color: #333;
+        scroll-behavior: smooth;
+    }
+    a { text-decoration: none; }
+
+    /* Header / Cover Page */
+    header {
+        background: linear-gradient(135deg, #00ff7f, #32cd32); /* luminous green gradient */
+        color: #fff;
+        text-align: center;
+        padding: 120px 20px 80px 20px;
+    }
+    header h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    }
+    header p {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    /* Sections */
+    section {
+        max-width: 900px;
+        margin: 60px auto;
+        background: #fff;
+        padding: 40px;
+        border-radius: 20px;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    }
+    section h2 {
+        font-size: 28px;
+        margin-bottom: 25px;
+        color: #32cd32;
+        border-bottom: 2px solid #00ff7f;
+        display: inline-block;
+        padding-bottom: 5px;
+    }
+    .service {
+        margin-bottom: 25px;
+    }
+    .service h3 {
+        font-size: 20px;
+        color: #111;
+        margin-bottom: 8px;
+    }
+    .service p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .btn {
+        display:inline-block; padding:12px 25px; background:#32cd32; 
+        color:#fff; text-decoration:none; border-radius:50px; margin-top:15px;
+        transition: 0.3s;
+    }
+    .btn:hover { background:#00ff7f; transform: translateY(-2px); }
+
+    /* Footer */
+    footer {
+        text-align:center; 
+        padding:40px; 
+        font-size:14px; 
+        color:#555;
+        background:#111;
+        color:white;
+    }
+
+    /* Modal Styles for "What I Offer" */
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 10;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0,0,0,0.6);
+    }
+    .modal-content {
+        background-color: white;
+        margin: 10% auto;
+        padding: 30px;
+        border-radius: 15px;
+        width: 80%;
+        max-width: 500px;
+        text-align: left;
+        animation: fadeIn 0.5s ease-in-out;
+    }
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .close:hover { color: #32cd32; }
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(-20px);}
+        to { opacity: 1; transform: translateY(0);}
+    }
+</style>
+</head>
+<body>
+
+<!-- Cover Page -->
+<header>
+    <h1>Your Success is Our Wish</h1>
+    <p>We live to serve! Automate your business, generate leads, and save time with AI-powered solutions.</p>
+</header>
+
+<!-- What I Offer Modal -->
+<div id="offerModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeOffers()">&times;</span>
+        <h2>My Services & Offerings</h2>
+        <ul>
+            <li>WhatsApp & Instagram Auto-Reply Systems</li>
+            <li>Booking & Appointment Automation</li>
+            <li>Lead Generation Systems</li>
+            <li>AI Business Tools Setup (CRM, Auto-invoices, Reminders)</li>
+            <li>Monthly Optimization & Reports</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Services Section -->
+<section id="services">
+    <h2>What I Do</h2>
+
+    <div class="service">
+        <h3>✔ WhatsApp & Instagram Auto-Reply Systems</h3>
+        <p>I build fast, AI-powered autoresponders that instantly reply to customers, send prices, book appointments, and answer FAQs.</p>
+    </div>
+
+    <div class="service">
+        <h3>✔ Booking & Appointment Automation</h3>
+        <p>Reduce missed calls and increase bookings with automated scheduling and reminders.</p>
+    </div>
+
+    <div class="service">
+        <h3>✔ Lead Generation Systems</h3>
+        <p>I help businesses get new customers using Google Maps research, outreach systems, and automated funnels.</p>
+    </div>
+
+    <div class="service">
+        <h3>✔ AI Business Tools Setup</h3>
+        <p>CRM setup, auto-invoices, follow-up reminders, and sales tracking—all automated.</p>
+    </div>
+
+    <a class="btn" href="https://wa.me/254759933073">Contact Me on WhatsApp</a>
+</section>
+
+<!-- Packages Section -->
+<section id="packages">
+    <h2>Packages & Pricing</h2>
+
+    <h3>Starter Package — $50</h3>
+    <ul>
+        <li>Basic WhatsApp Auto-Reply</li>
+        <li>5 Quick Reply Messages</li>
+        <li>Simple Customer Log Sheet</li>
+    </ul>
+
+    <h3>Business Package — $150</h3>
+    <ul>
+        <li>Full WhatsApp Automation</li>
+        <li>Booking System</li>
+        <li>Customer Database</li>
+        <li>Follow-up Reminders</li>
+    </ul>
+
+    <h3>Premium Package — $300</h3>
+    <ul>
+        <li>WhatsApp + Instagram Automation</li>
+        <li>CRM Setup</li>
+        <li>Lead Generation System</li>
+        <li>Monthly Optimization</li>
+    </ul>
+
+    <a class="btn" href="https://wa.me/254759933073">Book a Free Demo</a>
+</section>
+
+<!-- Why Choose -->
+<section id="why">
+    <h2>Why Choose My Services?</h2>
+    <ul>
+        <li>Fast Delivery</li>
+        <li>Affordable Prices</li>
+        <li>AI-powered tools</li>
+        <li>Saves hours of daily work</li>
+        <li>Helps your business get more customers</li>
+    </ul>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <h2>Contact</h2>
+    <p><strong>WhatsApp:</strong> +254759933073</p>
+</section>
+
+<!-- Footer -->
+<footer>
+    © 2025 TECHNOVA — AI Automation Specialist
+</footer>
+
+<script>
+    // Show modal
+    function showOffers() {
+        document.getElementById("offerModal").style.display = "block";
+    }
+
+    // Close modal
+    function closeOffers() {
+        document.getElementById("offerModal").style.display = "none";
+    }
+
+    // Close modal when clicking outside
+    window.onclick = function(event) {
+        const modal = document.getElementById("offerModal");
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+</body>
+</html>
